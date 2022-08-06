@@ -1,0 +1,79 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+.color-bg {
+	background-color: $green-100;
+}
+
+.shadow-dt {
+	box-shadow: 4px 4px rgba(52, 58, 64, 1) !important;
+}
+
+.shadow-dt-2 {
+	box-shadow: 8px 8px $green-500 !important;
+}
+
+h1 {
+	font-size: 57px !important;
+}
+
+h2 {
+	font-size: 43px !important;
+}
+
+h3 {
+	font-size: 32px !important;
+}
+
+h4 {
+	color: $gray-700;
+	font-size: 24px !important;
+}
+
+p {
+	color: $gray-700;
+	max-width: 450px;
+	font-size: 18px !important;
+}
+
+.icon-color {
+	color: $green-500;
+}
+
+.font-color-light {
+	color: $gray-600 !important;
+}
+
+.border-color {
+	border-color: $green-200;
+}
+
+.postion-play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+
+.corners-rounded-bottom {
+	border-radius: 0px 0px 18px 18px !important;
+}
+
+.corners-rounded-top {
+	border-radius: 16px 16px 0px 0px !important;
+}
+
+.blog-category-position {
+	top: 85.5%;
+	left: 0%;
+	border-radius: 0px 8px 0px 0px;
+	background-color: $gray-700;
+}
